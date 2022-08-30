@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+p{
+    font-style: italic;
+    font-family: cursive;
+    color: chartreuse;
+    font-size: 125%;
+}

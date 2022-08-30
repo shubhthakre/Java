@@ -1,0 +1,14 @@
+   h2.a {
+        visibility: visible;
+      }
+
+      h2.b {
+        visibility: hidden;
+      }
+      tr.collapse {
+        visibility: collapse;
+      }
+      table,
+      td {
+        border: 1px solid black;
+      }
