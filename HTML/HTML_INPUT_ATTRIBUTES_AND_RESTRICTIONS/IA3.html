@@ -1,0 +1,69 @@
+<!--
+3. Apply all of the below input restrictions
+disabled, max, maxlength, min, readonly, required, size, value
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documment - 3</title>
+</head>
+<body>
+    <h1>Using input restrictions like disabled, max, maxlength, min, readonly, required, size, value</h1>
+    <form>
+        <label for="fname">First name: </label><br>
+        <input type="text" id="fname" name="fname" value="Owais" disabled><br>
+        <label for="lname">Last Name: </label><br>
+        <input type="text" id="lname" name="lname" value="MD">
+    </form><br>
+
+    <form>
+        <label for="datemax">Enter a date before 1980-01-01: </label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br>
+
+        <label for="datemin">Enter a date after 2000-01-01: </label>
+        <input type="date" id="datemin" name="datemin" max="2000-01-02"><br>
+
+        <label for="quantity">Quantity (between 1 and 5) : </label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+
+    </form><br>
+
+    <form>
+        <label for="fname1">First name: </label>
+        <input type="text" id="fname1" name="fname" size="50"><br>
+        <label for="pin">PIN: </label><br>
+        <input type="text" id="pin" name="pin" maxlength="4" size="4">
+    </form><br>
+
+    <form>
+        <label for="fname2">First Name: </label><br>
+        <input type="text" id="fname2" name="fname2" value="MD" readonly><br>
+        <label for="lname2">Last name: </label><br>
+        <input type="text" id="lname2" name="lname2" value="Owais">
+    </form><br>
+
+    <form>
+        <label for="username">Username: </label><br>
+        <input type="text" id="username" name="username" readonly>
+    </form><br>
+
+    <form>
+      <label for="fname3">First name:</label><br />
+      <input type="text" id="fname3" name="fname3" size="50" /><br />
+      <label for="pin2">PIN:</label><br />
+      <input type="text" id="pin2" name="pin" size="4" />
+    </form>
+    <br />
+    <form>
+      <label for="fname4">First name:</label><br />
+      <input type="text" id="fname4" name="fname4" value="John" /><br />
+      <label for="lname4">Last name:</label><br />
+      <input type="text" id="lname4" name="lname" value="Doe" />
+    </form>
+
+</body>
+</html>
